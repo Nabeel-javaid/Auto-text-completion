@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+#input-section {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #CCCCCC;
+}
+
+#input-field {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#submit-button {
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    background-color: salmon;
+    /* Change the background color */
+    color: #FFFFFF;
+    /* Change the text color */
+    border: none;
+    border-radius: 5px;
+    /* Add rounded corners */
+    box-shadow: 0px 0px 5px #555555;
+    /* Add a subtle shadow */
+    text-transform: uppercase;
+    /* Change the text to uppercase */
+    font-weight: bold;
+    /* Make the text bold */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    /* Add a smooth transition effect */
+}
+
+#submit-button:hover {
+    background-color: #5555FF;
+    /* Change the background color on hover */
+    transform: scale(1.1);
+    /* Scale up the button on hover */
+}
+
+#response-section {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #CCCCCC;
+}
+
+#response-display {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+    color: #333333;
+}
+
+#answer-box {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+    color: #333333;
+    border-radius: 5px;
+}
