@@ -15,7 +15,7 @@ submitButton.addEventListener("click", function () {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer API_KEY'
         },
         body: JSON.stringify({
             "prompt": inputText,
